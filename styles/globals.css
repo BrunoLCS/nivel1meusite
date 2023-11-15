@@ -1,0 +1,29 @@
+:root {
+  --font-color: black;
+  --bg-color: salmon;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--bg-color);
+}
+
+.footer {
+  text-align: center;
+  padding: 5px 0;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--font-color);
+}

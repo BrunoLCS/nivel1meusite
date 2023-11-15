@@ -1,0 +1,26 @@
+.container-main {
+  text-align: center;
+}
+
+.container-main p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.main-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.main-logo div img {
+  width: 8rem
+}
+
+.main-logo div:nth-child(2) {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: left;
+}
